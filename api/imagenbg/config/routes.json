@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/imagenbgs",
+      "handler": "imagenbg.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/imagenbgs/count",
+      "handler": "imagenbg.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/imagenbgs/:id",
+      "handler": "imagenbg.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/imagenbgs",
+      "handler": "imagenbg.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/imagenbgs/:id",
+      "handler": "imagenbg.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/imagenbgs/:id",
+      "handler": "imagenbg.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
