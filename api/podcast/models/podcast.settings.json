@@ -36,8 +36,13 @@
         "files"
       ],
       "plugin": "upload",
-      "required": false,
+      "required": true,
       "pluginOptions": {}
+    },
+    "episodio": {
+      "type": "integer",
+      "required": true,
+      "unique": true
     }
   }
 }
